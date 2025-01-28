@@ -4,33 +4,32 @@ using System.Linq;
 
 class Program
 {
-    public class Person
-    {
-        public int Id{ get; set;}
-        public string Name{ get; set;}
-        public string Gender{ get; set;}
-    }
+    //Male and Female Const declared
+    private const string Male = "Male";
+    private const string Female = "Female";
 
     static void Distinguish(List<Person> personList)
     {
-        List<Person> male = new List<Person>();
-        List<Person> female = new List<Person>();
         
+        var malePerson = new List<Person>();
+        var femalePerson = new List<Person>() ;
+        
+        //checking gender male and female and adding to the malePerson and femalePerson List
         foreach(var Person in personList)
         {
-            if(Person.Gender.Contains("Male")){
-                male.Add(Person);
-            }else if(Person.Gender.Contains("Female"))
+            if(Person.Gender == Male){
+                malePerson.Add(Person);
+            }else if(Person.Gender == Female)
             {
-                female.Add(Person);
+                femalePerson.Add(Person);
             }
         }
         Console.WriteLine("Male Person:");
-        foreach(var m in male){
+        foreach(var m in malePerson){
             Console.WriteLine($"ID: {m.Id}, Name: {m.Name}, Gender: {m.Gender}");
         }
         Console.WriteLine("Female Person:");
-        foreach(var m in female){
+        foreach(var m in femalePerson){
             Console.WriteLine($"ID: {m.Id}, Name: {m.Name}, Gender: {m.Gender}");
         }
     }
