@@ -1,0 +1,15 @@
+D:\Amnil_Intern\Distinguish\bin\Debug\net9.0\Distinguish.exe
+D:\Amnil_Intern\Distinguish\bin\Debug\net9.0\Distinguish.deps.json
+D:\Amnil_Intern\Distinguish\bin\Debug\net9.0\Distinguish.runtimeconfig.json
+D:\Amnil_Intern\Distinguish\bin\Debug\net9.0\Distinguish.dll
+D:\Amnil_Intern\Distinguish\bin\Debug\net9.0\Distinguish.pdb
+D:\Amnil_Intern\Distinguish\obj\Debug\net9.0\Distinguish.GeneratedMSBuildEditorConfig.editorconfig
+D:\Amnil_Intern\Distinguish\obj\Debug\net9.0\Distinguish.AssemblyInfoInputs.cache
+D:\Amnil_Intern\Distinguish\obj\Debug\net9.0\Distinguish.AssemblyInfo.cs
+D:\Amnil_Intern\Distinguish\obj\Debug\net9.0\Distinguish.csproj.CoreCompileInputs.cache
+D:\Amnil_Intern\Distinguish\obj\Debug\net9.0\Distinguish.dll
+D:\Amnil_Intern\Distinguish\obj\Debug\net9.0\refint\Distinguish.dll
+D:\Amnil_Intern\Distinguish\obj\Debug\net9.0\Distinguish.pdb
+D:\Amnil_Intern\Distinguish\obj\Debug\net9.0\Distinguish.genruntimeconfig.cache
+D:\Amnil_Intern\Distinguish\obj\Debug\net9.0\ref\Distinguish.dll
+D:\Amnil_Intern\Distinguish\obj\Debug\net9.0\Distinguish.sourcelink.json

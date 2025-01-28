@@ -1,0 +1,15 @@
+D:\Amnil_Intern\Day1\DuplicateRemoved\bin\Debug\net9.0\DuplicateRemoved.exe
+D:\Amnil_Intern\Day1\DuplicateRemoved\bin\Debug\net9.0\DuplicateRemoved.deps.json
+D:\Amnil_Intern\Day1\DuplicateRemoved\bin\Debug\net9.0\DuplicateRemoved.runtimeconfig.json
+D:\Amnil_Intern\Day1\DuplicateRemoved\bin\Debug\net9.0\DuplicateRemoved.dll
+D:\Amnil_Intern\Day1\DuplicateRemoved\bin\Debug\net9.0\DuplicateRemoved.pdb
+D:\Amnil_Intern\Day1\DuplicateRemoved\obj\Debug\net9.0\DuplicateRemoved.GeneratedMSBuildEditorConfig.editorconfig
+D:\Amnil_Intern\Day1\DuplicateRemoved\obj\Debug\net9.0\DuplicateRemoved.AssemblyInfoInputs.cache
+D:\Amnil_Intern\Day1\DuplicateRemoved\obj\Debug\net9.0\DuplicateRemoved.AssemblyInfo.cs
+D:\Amnil_Intern\Day1\DuplicateRemoved\obj\Debug\net9.0\DuplicateRemoved.csproj.CoreCompileInputs.cache
+D:\Amnil_Intern\Day1\DuplicateRemoved\obj\Debug\net9.0\DuplicateRemoved.sourcelink.json
+D:\Amnil_Intern\Day1\DuplicateRemoved\obj\Debug\net9.0\DuplicateRemoved.dll
+D:\Amnil_Intern\Day1\DuplicateRemoved\obj\Debug\net9.0\refint\DuplicateRemoved.dll
+D:\Amnil_Intern\Day1\DuplicateRemoved\obj\Debug\net9.0\DuplicateRemoved.pdb
+D:\Amnil_Intern\Day1\DuplicateRemoved\obj\Debug\net9.0\DuplicateRemoved.genruntimeconfig.cache
+D:\Amnil_Intern\Day1\DuplicateRemoved\obj\Debug\net9.0\ref\DuplicateRemoved.dll
