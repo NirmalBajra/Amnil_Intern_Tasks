@@ -20,7 +20,7 @@ class Program
 
         for (int i = 0; i < numbers.Count; i++)
         {
-            if (max > numbers[i])
+            if (max > numbers[i])+
             {
                 max = numbers[i];
             }
