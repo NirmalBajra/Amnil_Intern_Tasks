@@ -1,24 +1,4 @@
-﻿using System;
-public interface IDoubleLinkedList
-{
-    void AddNode(int value);
-    void DisplayList();
-    int GetCount();
-}
-class DoublyLinkedListNode
-{
-    public int data;
-    public DoublyLinkedListNode Next; // References to the next node
-    public DoublyLinkedListNode Prev; // References to the prev node
-    
-    public DoublyLinkedListNode(int x)
-    {
-        data = x;
-        Next = null;
-        Prev = null;
-    }
-}
-public class DoublyLinkedList : IDoubleLinkedList
+﻿public class DoublyLinkedList : IDoubleLinkedList
 {
     private DoublyLinkedListNode head;
     private DoublyLinkedListNode tail;
@@ -53,7 +33,7 @@ public class DoublyLinkedList : IDoubleLinkedList
         DoublyLinkedListNode currentNode = head;
         while(currentNode !=null)
         {
-            Console.WriteLine(current.data + " ");
+            Console.WriteLine(currentNode.data + " ");
             currentNode = currentNode.Next;
         }
         Console.WriteLine();
