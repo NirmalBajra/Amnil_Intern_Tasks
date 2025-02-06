@@ -9,3 +9,7 @@ public static class SortStudentsNameExtension
         return students.OrderByDescending(s => s.Name).ToList();
     }
 }
+public class Student
+{
+    public string Name { get; set; }
+}

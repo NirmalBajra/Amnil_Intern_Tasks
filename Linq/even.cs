@@ -9,3 +9,8 @@ public static class EvenNumbersExtensions
         return numbers.Where(n => n %2 ==0).ToList();
     }
 }
+class Employee
+{
+    public string Name { get; set; }
+    public int Age { get; set; }
+}
