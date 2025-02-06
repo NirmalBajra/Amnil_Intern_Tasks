@@ -21,7 +21,8 @@ namespace StringBuilderTask
             StringBuilder sentence = new StringBuilder();
             for(int i = 0; i< names.Length; i++){
                 sentence.Append(names[i]);
-                if(i< names.Length -1)
+                if(i< names.Lengthcls
+                 -1)
                 {
                     sentence.Append(", ");
                 }
