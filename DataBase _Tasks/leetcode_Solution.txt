@@ -1,0 +1,61 @@
+182. Duplicate Emails -> Solution:
+    SELECT email AS Email 
+    FROM Person 
+    GROUP BY email 
+    HAVING COUNT(email) > 1;
+
+176. Second Highest Salary -> Solution:
+    SELECT MAX(salary) AS SecondHighestSalary
+    FROM Employee
+    WHERE salary < (SELECT MAX(salary) FROM Employee);
+
+185. Department Top Three Salaries: Solution
+
+    WITH cte AS
+    (SELECT d.name AS Department, e.name AS Employee, e.salary AS Salary,
+    dense_rank() over(partition BY e.departmentId ORDER BY e.salary DESC) AS densrnk
+    FROM Employee e
+    LEFT JOIN Department d
+    on e.departmentId = d.id)
+    SELECT Department, Employee, Salary
+    FROM cte
+    WHERE densrnk <=3;
+
+2.Add Two Linked List Numbers
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
+        ListNode* result = new ListNode(0);  
+        ListNode* ptr = result;
+        int carry = 0;
+
+        while (l1 != nullptr || l2 != nullptr || carry) {
+            int sum = carry;
+            
+            if (l1 != nullptr) {
+                sum += l1->val;
+                l1 = l1->next;
+            }
+            if (l2 != nullptr) {
+                sum += l2->val;
+                l2 = l2->next;
+            }
+            
+            carry = sum / 10;
+            ptr->next = new ListNode(sum % 10);
+            ptr = ptr->next;
+        }
+
+        return result->next; 
+    }
+};
